@@ -4,21 +4,21 @@ cask "git-outlet" do
 
   on_macos do
     on_arm do
-      sha256 "818807154f47ee54e3cab6e1a34b7f94b0dfab03323339a6b5dc0bcccb9ad24a"
+      sha256 "628e25344c8bc44ab8dec54300daff391d52bc771bba9caeaab5c0087a47231e"
       url "https://github.com/sohanemon/git-outlet/releases/download/v#{version}/git-outlet_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "d6f9fd8f3039a4c78599b136f789cbcfe56cffdb0993d8d35cfb799147d64e19"
+      sha256 "fc82a0d0b0f883425c98ec5b51175ee464d914f721a78aab09687b00efbf7793"
       url "https://github.com/sohanemon/git-outlet/releases/download/v#{version}/git-outlet_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "6b5bd4bf5c914ca0863f478438f6478168692882ee8e569c3960b6812d7cb35d"
+      sha256 "788b1de8ea8c21221bcedfb6681fbb97625c809e75b906e2fce53764e581dc66"
       url "https://github.com/sohanemon/git-outlet/releases/download/v#{version}/git-outlet_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "dd88f1d4874c22e57043e011097cc35e8017883ca7ebe59aa7bf7d7b3f36a979"
+      sha256 "d42e179dcd6e3d86291c591427f46e2a9902976a41e57a8904023924e879646a"
       url "https://github.com/sohanemon/git-outlet/releases/download/v#{version}/git-outlet_#{version}_linux_amd64.tar.gz"
     end
   end
